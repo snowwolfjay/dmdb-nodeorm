@@ -1,0 +1,20 @@
+{
+  "name": "@dmorm/fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dmorm/core": "workspace:*",
+    "fastify": "^4.26.1",
+    "fastify-plugin": "^4.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

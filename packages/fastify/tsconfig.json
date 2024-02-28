@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+      "target": "ES2015",
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "esModuleInterop": true,
+      "strict": false,
+      "resolveJsonModule": true,
+      "removeComments": true,
+      "newLine": "lf",
+      "noUnusedLocals": false,
+      "noFallthroughCasesInSwitch": false,
+      "isolatedModules": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "lib": [
+        "ESNext"
+      ]
+    }
+  }
+  

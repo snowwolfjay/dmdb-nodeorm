@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TableBase = exports.RepoManager = exports.getConnection = exports.connectdmdb = void 0;
+var db_1 = require("./db");
+Object.defineProperty(exports, "connectdmdb", { enumerable: true, get: function () { return db_1.connectdmdb; } });
+Object.defineProperty(exports, "getConnection", { enumerable: true, get: function () { return db_1.getConnection; } });
+var base_1 = require("./repo/base");
+Object.defineProperty(exports, "RepoManager", { enumerable: true, get: function () { return base_1.RepoManager; } });
+var table_1 = require("./repo/table");
+Object.defineProperty(exports, "TableBase", { enumerable: true, get: function () { return table_1.TableBase; } });
